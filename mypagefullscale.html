@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+<script>
+//
+// resizer step 1:
+// ===============
+// define resizer rules
+// tree = element_id = his parent
+// px2pre = list of elements_id's to convert from px units to % units
+//          [list of style properties , ... ] 
+//
+var resizer = 
+{
+ver:1.0,
+tree: 
+	{ left : "main" ,
+	  right: "main" 
+	},
+px2pre: 
+	{
+	left: [ "left","top"] ,
+	right: [ "left","top"] 
+	}
+}
+
+//
+// resizer step 2:
+// ===============
+// globals
+var marginW = 22; // safe margin Horizontal
+var marginH = 22; // safe margin Vertical
+var debug1 = 1  ; // display debug mesages
+
+
+
+//
+// resizer step 3: include the css Designer file
+// ===============
+</script>
+	<link rel="stylesheet" href="ui.css">
+
+
+
+</head>
+<body>
+    <div id=main class=maincl data-resize="height:h;width:w">
+        <div id=left class=leftcl data-resize="width:w*0.234;height:h*0.92">
+            <h2>Left window</h2>
+            <br>
+            &nbsp;<a href=mypagefullscale.html>my same page with scale + dynamic width and height</a>
+        </div>
+        <div id=right class=rightcl data-resize="width:w*0.73;height:h*0.92">
+            <h2>Right window</h2>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+<script>
+//
+// resizer step 4 (at the end): include resizer.js
+//
+</script>
+<script src="resizer.js"></script> 
+</html>
