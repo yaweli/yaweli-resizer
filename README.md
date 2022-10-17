@@ -13,6 +13,7 @@ This tool will help the designer to setup the masurment in the first place , to 
 #Options:
 
 1. tell the system to resize the element evry time the windows size is chaning
+user the data-resize parameter:
 ```
 
  <div id=left class=leftcl data-resize="width:w*0.234;height:h*0.92">
