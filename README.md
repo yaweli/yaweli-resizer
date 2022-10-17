@@ -77,3 +77,19 @@ px2pre:
 }
 
 ```
+
+
+
+
+Scale page: 
+
+![image](https://user-images.githubusercontent.com/16836814/196215693-acec091f-3998-4110-9a6d-a7f3736071df.png)
+
+
+
+none scale page: 
+
+![image](https://user-images.githubusercontent.com/16836814/196215904-6775fcfd-d565-4697-81ad-e0abb35384cb.png)
+
+
+
