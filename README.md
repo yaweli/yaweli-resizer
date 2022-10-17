@@ -123,5 +123,15 @@ continue to supply css files as a fixed px masurment:
 
 ```
 
+# Long term
+Future version of a website will always need to be updated with new css files, it best if the ux and ui designer not change there origional design with each update. most of the time they will not be familiare with the programmers environment. 
+
+
+# feedback
+
+Feedback is welcome
+
+yaweli+resize@gmail.com
+
 
 
