@@ -92,4 +92,33 @@ none scale page:
 ![image](https://user-images.githubusercontent.com/16836814/196215904-6775fcfd-d565-4697-81ad-e0abb35384cb.png)
 
 
+Benefit for the UX/UI designer: 
 
+continue to supply css files as a fixed px masurment: 
+```
+.maincl {
+    width:1920px;
+    background: #3E4649;
+    height: 1080px;
+}
+.leftcl {
+  position: absolute; 
+  height: 1000px;
+  width: 442px;
+  left: 35px;
+  top: 55px;
+  border-radius: 0px;
+  font-family: arial;
+  background: yellow;
+}
+.rightcl {
+  position: absolute; 
+  height: 1000px; 
+  width: 1388px;
+  left: 497px;
+  top: 55px;
+  border-radius: 0px;
+  background: lightgreen;
+}
+
+```
