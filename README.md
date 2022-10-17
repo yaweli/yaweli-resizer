@@ -47,4 +47,33 @@ The UX designer will use px as default since that is the output of the designer 
 
 Iniciale setup:
 
-you need to declare the parent of each div you want to be resize
+you need to declare the parent of each div you want to be resize. 
+
+this is done by adding a "resizer" object.
+
+the first element "tree" of the object will hold the list of element and its parent, 
+
+ex: 
+
+left : "main" 
+
+
+left is the element id , and "main" is the element parent id. 
+
+
+```
+var resizer = 
+{
+ver:1.0,
+tree: 
+	{ left : "main" ,
+	  right: "main" 
+	},
+px2pre: 
+	{
+	left: [ "left","top"] ,
+	right: [ "left","top"] 
+	}
+}
+
+```
