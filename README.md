@@ -10,9 +10,9 @@ Figma and other tool will help you to export your css and deliver them to your t
 
 This tool will help the designer to setup the masurment in the first place , to cinsider a fix width when designing and a variable width when running. 
 
-##Options:
+## Options:
 
-#Tell the system to resize the element evry time the windows size is chaning
+# Tell the system to resize the element evry time the windows size is chaning
 
 using the data-resize parameter:
 ```
