@@ -92,7 +92,7 @@ none scale page:
 ![image](https://user-images.githubusercontent.com/16836814/196215904-6775fcfd-d565-4697-81ad-e0abb35384cb.png)
 
 
-Benefit for the UX/UI designer: 
+# Benefit for the UI designer: 
 
 continue to supply css files as a fixed px masurment: 
 ```
